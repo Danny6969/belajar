@@ -19,3 +19,6 @@ function balikkata(input){
 }
 console.log(balikkata('gajah'));
 
+//==================================================
+
+
