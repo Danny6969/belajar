@@ -1,14 +1,19 @@
 function xo(str) {
-    let x = 1;
-    let o = 2;
+    let x = 0;
+    let o = 0;
     let result = '';
-    if (x.length == o.length){
-
-        result = 'true'
+    let hasil =''
+    for(let i = 0; i<=0 ; i++){
+    if (str[0]==='x'){
+        result = x + 1
+        hasil = 'true'
     }else{
-        result = 'false'
+        
+        result = o + 1
+        hasil = 'false'
     }
-    return result;
+    }
+    return hasil;
   }
   
   // TEST CASES
